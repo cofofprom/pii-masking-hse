@@ -1,12 +1,2 @@
-ner_model filter=lfs diff=lfs merge=lfs -text
-ner_model/trainer_state.json filter=lfs diff=lfs merge=lfs -text
-ner_model/training_args.bin filter=lfs diff=lfs merge=lfs -text
-ner_model/scheduler.pt filter=lfs diff=lfs merge=lfs -text
-ner_model/tokenizer.json filter=lfs diff=lfs merge=lfs -text
-ner_model/tokenizer_config.json filter=lfs diff=lfs merge=lfs -text
-ner_model/rng_state.pth filter=lfs diff=lfs merge=lfs -text
-ner_model/special_tokens_map.json filter=lfs diff=lfs merge=lfs -text
-ner_model/vocab.txt filter=lfs diff=lfs merge=lfs -text
-ner_model/config.json filter=lfs diff=lfs merge=lfs -text
-ner_model/model.safetensors filter=lfs diff=lfs merge=lfs -text
-ner_model/optimizer.pt filter=lfs diff=lfs merge=lfs -text
+01-whole-model.tar.gz filter=lfs diff=lfs merge=lfs -text
+02-classifier-model.tar.gz filter=lfs diff=lfs merge=lfs -text
